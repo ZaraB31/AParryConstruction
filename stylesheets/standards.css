@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+/**
+* Header Styling
+*/
+header {
+    display: flow-root;
+    background-color: #d30009;
+}
+header img {
+    width: 15vw;
+    max-width: 130px;
+    min-width: 90px;
+    height: auto;
+    float: left;
+    padding-left: 2vw;
+}
+header nav {
+    float: right;
+    display: flex;
+    width: 65vw;
+    justify-content: space-between;
+    max-height: 50%;
+    padding-top: 52px;
+    padding-right: 2.5vw;
+}
+header li {
+    list-style-type: none;
+}
+header li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+header li a:hover {
+    text-decoration: underline;
+}
+main {
+    width: 80%;
+    margin: 30px auto;
+    
+}
