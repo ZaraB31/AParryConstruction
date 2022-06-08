@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 h1, h2, h3, p {
     margin: 0;
@@ -68,8 +69,7 @@ footer {
 footer article {
     display: flex;
     justify-content: space-evenly;
-    padding: 10px 4vw;
-
+    padding: 25px 4vw;
 }
 footer article section {
     width: 200px;
