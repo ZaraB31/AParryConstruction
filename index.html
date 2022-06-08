@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stylesheets/standards.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="menu.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
     <script src="https://kit.fontawesome.com/7d0f299f51.js" crossorigin="anonymous"></script>
     <title>Home</title>
@@ -14,12 +15,13 @@
 <body>
     <header>
         <img src="images/logo.png" alt="A Parry Construction logo">
-        <nav>
+        <a onclick="openMenu()" class="icon"><i class="fa-solid fa-bars"></i></a>
+        <nav class="topnav" id="myTopNav">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="caseStudies.html">Case Studies</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>   
         </nav>
     </header>
     <main>

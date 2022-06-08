@@ -58,10 +58,38 @@ header li a {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
 }
+header .icon {
+    display: none;
+}
+@media only screen and (max-width: 780px) {
+    .topnav {
+        display: none;
+    }
+    header .icon {
+        display: block;
+        font-size: 50px;
+        margin-top: 3vw;
+        float: right;
+        margin-right: 2vw;
+    }
+    .topnav.responsive {
+        display: block;
+        float: left;
+        text-align: center;
+        padding-top: 0;
+        width: 100%;
+    }  
+}
+/*
+* Main page styling
+*/
 main {
     width: 80%;
     margin: 30px auto; 
 }
+/*
+*Footer styling
+*/
 footer {
     background-color: #000;
     color: #fff;
@@ -69,16 +97,18 @@ footer {
 footer article {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 25px 4vw;
 }
 footer article section {
-    width: 200px;
+    min-width: 235px;
+    margin-bottom: 20px;
 }
 footer article section li {
     font-size: 17px;
 }
 footer article section.form {
-    width: 350px;
+    max-width: 350px;
 }
 footer article section form input, footer article section form textarea {
     width: 100%;
