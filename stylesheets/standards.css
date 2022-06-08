@@ -4,8 +4,27 @@ body {
 }
 h1, h2, h3, p {
     margin: 0;
+    margin-bottom: 16px;
 }
-/**
+h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+/*
 * Header Styling
 */
 header {
@@ -33,17 +52,54 @@ header li {
     list-style-type: none;
 }
 header li a {
-    text-decoration: none;
     color: #fff;
     font-size: 24px;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
 }
-header li a:hover {
-    text-decoration: underline;
-}
 main {
     width: 80%;
-    margin: 30px auto;
-    
+    margin: 30px auto; 
+}
+footer {
+    background-color: #000;
+    color: #fff;
+}
+footer article {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 4vw;
+
+}
+footer article section {
+    width: 200px;
+}
+footer article section li {
+    font-size: 17px;
+}
+footer article section.form {
+    width: 350px;
+}
+footer article section form input, footer article section form textarea {
+    width: 100%;
+    margin-bottom: 5px;
+}
+footer article section form textarea {
+    height: 100px;
+}
+footer article section form label {
+    margin-top: 5px;
+}
+footer article section form input[type = "submit"] {
+    width: 30%;
+    float: right;
+    border: none;
+    background-color: #d30009;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+footer article section div i {
+    font-size: 28px;
+    margin-right: 15px;
 }
