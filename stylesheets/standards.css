@@ -108,7 +108,8 @@ footer article section li {
     font-size: 17px;
 }
 footer article section.form {
-    max-width: 350px;
+    width: 350px;
+    max-width: 70vw;
 }
 footer article section form input, footer article section form textarea {
     width: 100%;
