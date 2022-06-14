@@ -15,8 +15,8 @@
     color: white;
     background-color: #d3000b;
 }
-.link:hover {
-    background-color: #FF0714;
+.link:hover p {
+    text-decoration: underline;
 }
 .link p {
     padding: 0 10px;
