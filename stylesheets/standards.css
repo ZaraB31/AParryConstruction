@@ -11,6 +11,13 @@ h1, h2, h3 {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
 }
+h2 {
+    font-size: 26px;
+}
+p {
+    font-size: 22px;
+    text-align: justify;
+}
 a {
     text-decoration: none;
     color: #fff;
@@ -34,19 +41,22 @@ header {
 }
 header img {
     width: 15vw;
-    max-width: 130px;
+    max-width: 105px;
     min-width: 90px;
     height: auto;
     float: left;
     padding-left: 2vw;
 }
+header img:hover {
+    cursor: pointer;
+}
 header nav {
     float: right;
     display: flex;
-    width: 65vw;
+    width: 50vw;
     justify-content: space-between;
     max-height: 50%;
-    padding-top: 52px;
+    padding-top: 40px;
     padding-right: 2.5vw;
 }
 header li {
@@ -84,7 +94,7 @@ header .icon {
 * Main page styling
 */
 main {
-    width: 80%;
+    width: 70%;
     margin: 30px auto; 
 }
 /*
@@ -133,4 +143,29 @@ footer article section form input[type = "submit"] {
 footer article section div i {
     font-size: 28px;
     margin-right: 15px;
+}
+.banner {
+    height: 65vh;
+    background-size: cover; 
+    background-position: center;
+    width: 100%;  
+}
+
+.title {
+    height: 30vh;
+    margin-top: 15vh;
+    color: white;
+    z-index: 2;
+    background-color: rgba(0,0,0, 0.6);
+    position: absolute;
+    top: 105px;
+    left: 34vw;
+    width: 400px;
+    text-align: center;
+    border: 3px solid white;
+}
+.title h1 {
+    font-size: 50px;
+    letter-spacing: 7px;
+    padding-top: 10vh;
 }

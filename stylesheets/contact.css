@@ -1,6 +1,7 @@
+.banner {
+    background-image: url("images/contact-header.jpg");
+}
 article {
-   width: 95%;
-    margin: auto;
     padding-bottom: 20px; 
 }
 .details {
