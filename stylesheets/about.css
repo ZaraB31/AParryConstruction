@@ -1,10 +1,29 @@
 .banner {
     background-image: url("images/about-banner.jpg");
 }
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+main section {
+    width: 63%;
+    float: left;
+    margin-right: 7%;
+}
+main section p {
+    margin-bottom: 20px;
+}
+main aside {
+    width: 25%;
+    float: right;
+    padding: 10px 2.5%;
+    background-color: #d3000b;
+    color: white;
+    border-radius: 10px;
+}
 main a {
-    color: black;
     text-decoration: underline;
+    color: black;
 }
 main ul {
     padding-left: 26px;
@@ -13,7 +32,12 @@ main li {
     list-style-type: disc;
     font-size: 20px;
 }
-
 .services img {
-    width: 50%;
+    width: 90%;
+    margin: 5%;
+    border-radius: 5px;
+
+}
+.services p, .services li {
+    font-size: 18px;
 }
