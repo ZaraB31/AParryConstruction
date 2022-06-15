@@ -1,0 +1,19 @@
+.banner {
+    background-image: url("images/about-banner.jpg");
+}
+
+main a {
+    color: black;
+    text-decoration: underline;
+}
+main ul {
+    padding-left: 26px;
+}
+main li {
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+.services img {
+    width: 50%;
+}
