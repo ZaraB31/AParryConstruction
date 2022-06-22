@@ -15,7 +15,7 @@ h2 {
     font-size: 36px;
 }
 p {
-    font-size: 24px;
+    font-size: 22px;
 }
 a {
     text-decoration: none;
@@ -98,6 +98,16 @@ main {
     width: 70%;
     margin: 30px auto; 
 }
+@media only screen and (max-width: 870px) {
+    main {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    main {
+        width: 90%;
+    }
+}
 /*
 *Footer styling
 */
@@ -158,6 +168,12 @@ footer article.second section{
 }
 footer article.second section p {
     font-size: 16px;
+}
+footer article.second section span {
+    font-size: 19px;
+}
+footer article.second section a {
+    text-decoration: underline;
 }
 
 /*

@@ -1,0 +1,30 @@
+.testimonial {
+    background-color: #d3000b;
+    color: white;
+    width: 80%;
+    margin: 10px auto;
+    padding: 2%;
+    border-radius: 10px;
+}
+.testimonial p {
+    font-size: 22px;
+}
+.testimonial h3 {
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 650px) {
+    .testimonial {
+        width: 90%;
+        padding: 15px;
+    }
+}
+.emergencyWorks {
+    background-image: url("../stylesheets/images/wrecsam-banner.jpg");
+}
+@media only screen and (max-width: 355px) {
+    .emergencyTitle h1 {
+        padding-top: 8vh;
+    }
+}
