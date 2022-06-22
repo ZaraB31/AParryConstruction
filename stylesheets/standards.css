@@ -109,7 +109,7 @@ footer article {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 25px 4vw;
+    padding: 20px 4vw;
 }
 footer article h2 {
     font-size: 26px;
@@ -119,18 +119,19 @@ footer article section {
     margin-bottom: 20px;
 }
 footer article section li {
-    font-size: 17px;
+    font-size: 20px;
 }
 footer article section.form {
     width: 350px;
     max-width: 70vw;
+    margin-bottom: 0;
 }
 footer article section form input, footer article section form textarea {
     width: 100%;
     margin-bottom: 5px;
 }
 footer article section form textarea {
-    height: 100px;
+    height: 80px;
 }
 footer article section form label {
     margin-top: 5px;
@@ -148,6 +149,17 @@ footer article section div i {
     font-size: 28px;
     margin-right: 15px;
 }
+footer article.second {
+    padding: 0 4vw;
+    justify-content: space-between;
+}
+footer article.second section{
+    margin-bottom: 0;
+}
+footer article.second section p {
+    font-size: 16px;
+}
+
 /*
 * Banner styling 
 */
@@ -160,7 +172,7 @@ footer article section div i {
 .title {
     height: 55vh;
     margin-top: 5vh;
-    left: 5vw;
+    left: 4vw;
     top: 105px;
     color: white;
     z-index: 2;
@@ -192,6 +204,7 @@ footer article section div i {
     }
     .title {
         height: 45vh;
+        left: 3vw;
     }
     .title h1 {
         padding-top: 18vh;

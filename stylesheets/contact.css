@@ -9,6 +9,9 @@ article {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.details ul {
+    font-size: 24px;
+}
 article form label, article form input[type="submit"] {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -29,4 +32,15 @@ article form input[type="submit"] {
     width: 20%;
     float: right;
     color: white;
+}
+@media only screen and (max-width: 550px) {
+    .details ul, .details p {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    article form input[type="submit"] {
+        width: 50%;
+    }
 }
