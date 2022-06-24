@@ -1,5 +1,8 @@
-.banner {
+.banner.services {
     background-image: url("images/services-header.jpg");
+}
+.banner.studies {
+    background-image: url("images/caseStudyBanner.jpg");
 }
 .linksContainer {
     display: flex;
@@ -10,7 +13,7 @@
     width: 32%;
     min-width: 250px;
     height: 200px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     color: white;
     background-color: #d3000b;

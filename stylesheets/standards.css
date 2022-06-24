@@ -245,10 +245,16 @@ footer article.second section a {
     }
     .title {
         height: 30vh;
-        width: 87vw;
     }
     .title h1 {
         padding-top: 12vh;
         font-size: 40px;
     }
+}
+.divider {
+    width: 75%;
+    margin: 30px auto;
+    border: 3px solid #d30009;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px #d30009;
 }

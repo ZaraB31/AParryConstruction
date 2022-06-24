@@ -24,7 +24,7 @@
     background-image: url("../stylesheets/images/wrecsam-banner.jpg");
 }
 @media only screen and (max-width: 355px) {
-    .emergencyTitle h1 {
+    .emergencyTitle {
         padding-top: 8vh;
     }
 }
