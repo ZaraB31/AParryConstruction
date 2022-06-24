@@ -245,6 +245,7 @@ footer article.second section a {
     }
     .title {
         height: 30vh;
+        width: 87vw;
     }
     .title h1 {
         padding-top: 12vh;
