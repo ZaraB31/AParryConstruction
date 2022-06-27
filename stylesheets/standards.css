@@ -252,9 +252,8 @@ footer article.second section a {
     }
 }
 .divider {
-    width: 75%;
-    margin: 30px auto;
+    width: 70%;
+    margin: 50px auto;
     border: 3px solid #d30009;
     border-radius: 15px;
-    box-shadow: 1px 1px 3px #d30009;
 }
