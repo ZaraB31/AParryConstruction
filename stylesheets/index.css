@@ -26,9 +26,13 @@
 }
 .awards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .awards img {
-    height: 200px;
+    height: 160px;
+    opacity: 0.5;
+}
+.awards img:hover {
+    opacity: 1;
 }

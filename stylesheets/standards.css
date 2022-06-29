@@ -41,6 +41,7 @@ img {
 header {
     display: flow-root;
     background-color: #d30009;
+    width: 100vw;
 }
 header img {
     width: 15vw;
