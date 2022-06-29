@@ -6,8 +6,9 @@ article {
 }
 .details {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 0;
 }
 .details ul {
     font-size: 24px;
