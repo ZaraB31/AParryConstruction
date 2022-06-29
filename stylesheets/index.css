@@ -1,0 +1,34 @@
+.homeOpen img {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 4px;
+}
+.homeOpen div {
+    
+    position: absolute;
+    bottom: 25px;
+    left: 49%;
+    animation-name: arrow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.homeOpen div i {
+    font-size: 60px;
+    color: #d3000b;
+}
+@keyframes arrow {
+    0% {bottom: 25px;}
+    20% {bottom: 60px;}
+    40% {bottom: 35px;}
+    60% {bottom: 60px;}
+    100% {bottom: 25px;}
+}
+.awards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.awards img {
+    height: 200px;
+}
