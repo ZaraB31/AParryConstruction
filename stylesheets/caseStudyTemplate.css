@@ -9,8 +9,7 @@ main article a {
 .testimonial {
     background-color: #d3000b;
     color: white;
-    width: 80%;
-    margin: 50px auto;
+    width: 100%;
     padding: 2%;
     border-radius: 10px;
 }
@@ -22,21 +21,6 @@ main article a {
     font-size: 20px;
     text-align: right;
     margin-bottom: 0;
-}
-@media only screen and (max-width: 650px) {
-    .testimonial {
-        width: 90%;
-        padding: 15px;
-    }
-}
-.emergencyWorks {
-    background-image: url("../stylesheets/images/wrecsam-banner.jpg");
-}
-.A55Sign {
-    background-image: url("../stylesheets/images/A55-banner.png");
-}
-.eiriasPark {
-    background-image: url("../stylesheets/images/eirias-banner.png");
 }
 @media only screen and (max-width: 355px) {
     .emergencyTitle {

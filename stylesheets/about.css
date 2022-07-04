@@ -1,6 +1,3 @@
-.banner {
-    background-image: url("images/about-banner.jpg");
-}
 main {
     display: flex;
     flex-wrap: wrap;

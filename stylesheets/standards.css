@@ -5,7 +5,7 @@ body {
 }
 h1, h2, h3, p {
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 h1, h2, h3 {
     font-family: 'Bebas Neue', cursive;
@@ -40,7 +40,7 @@ img {
 */
 header {
     display: flow-root;
-    background-color: #d30009;
+    background-color: #d3000b;
     width: 100vw;
 }
 header img {
@@ -100,10 +100,10 @@ header .icon {
 */
 main article {
     width: 70%;
-    padding: 50px 15%; 
+    padding: 40px 15%; 
 }
 main article.grey {
-    background-color: #E0E0E0;
+    background-color: #F0F0F0;
 }
 @media only screen and (max-width: 900px) {
     main article {
@@ -192,20 +192,17 @@ footer article.second section a {
 .banner {
     padding: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
 }
 .banner h1 {
-    float: left;
-    width: 35%;
-    font-size: 6vw;
+    width: 100%;
+    font-size: 78px;
     text-decoration: underline #d30009;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    max-height: 65vh;
     text-align: center;
 }
 .banner img {
-    width: 65%;
-    max-height: 65vh;
-    float: right;
+    width: 100%;
+    max-height: 60vh;
 }
