@@ -26,15 +26,84 @@
     60% {bottom: 60px;}
     100% {bottom: 25px;}
 }
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+.intro img {
+    width: 35vw;
+    box-shadow: 7px 8px 8px 0 rgb(0 0 0 / 38%), 0 6px 20px 0 rgb(0 0 0 / 38%);
+}
+.intro div {
+    margin-left: 2vw;
+    float: right;
+    margin-top: 15px;
+}
 .awards {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .awards img {
-    height: 120px;
+    height: 140px;
     opacity: 0.5;
 }
 .awards img:hover {
     opacity: 1;
+}
+.featuredStudy {
+    display: flex;
+}
+.featuredStudy img {
+    max-height: 50vh;
+    width: 30vw;
+    box-shadow: 7px 8px 8px 0 rgb(0 0 0 / 38%), 0 6px 20px 0 rgb(0 0 0 / 38%);
+}
+.featuredStudy div {
+    margin-left: 30px;
+    margin-top: 11vh;
+    width: 50%;
+}
+.featuredStudy div p {
+    text-align: justify;
+}
+.featuredStudy div a {
+    color: black;
+    text-decoration: underline #d3000b 3px;
+    font-size: 20px;
+    float: right;
+    font-weight: bold;
+}
+.ourValues {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ourValues h2 {
+    width: 100%;
+}
+.ourValues img {
+    width: 40%;
+    float: right;
+    margin-top: 20px;
+    box-shadow: 7px 8px 8px 0 rgb(0 0 0 / 38%), 0 6px 20px 0 rgb(0 0 0 / 38%);
+
+}
+.values {
+    font-size: 20px;
+    width: 48%;
+    margin-left: 2%;
+    line-height: 150%;
+    margin-top: 35px;
+}
+.values li {
+    margin-bottom: 25px;
+}
+.values i {
+    color: #d3000b;
+    margin-right: 5px;
+}
+.values span {
+    font-weight: bold;
+    font-size: 22px;
 }
