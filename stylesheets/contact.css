@@ -5,7 +5,7 @@ article {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-bottom: 0;
+    padding-bottom: 90px;
 }
 .details ul {
     font-size: 24px;

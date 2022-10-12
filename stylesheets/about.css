@@ -43,7 +43,7 @@ main li {
         font-size: 20px;
     }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1150px) {
     main section {
         float: none;
         margin-right: 0;
