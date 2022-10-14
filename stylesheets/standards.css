@@ -23,7 +23,7 @@ a {
     color: #fff;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline #d3000b 3px;
     cursor: pointer;
 }
 ul {
@@ -99,12 +99,30 @@ header .icon {
 /*
 * Main page styling
 */
+main {
+    width: 100vw;
+}
 main article {
     width: 60%;
-    padding: 90px 20%; 
+    padding: 75px 20%; 
 }
 main article.grey {
     background-color: #F0F0F0;
+}
+.backButton {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.backButton i {
+    margin-right: 6px;
+}
+.backButton a {
+    text-decoration: none;
+    color: black;
+}
+.backButton a:hover {
+    text-decoration: underline #d3000b 3px;
 }
 @media only screen and (max-width: 900px) {
     main article {
@@ -124,6 +142,7 @@ main article.grey {
 footer {
     background-color: #000;
     color: #fff;
+    width: 100vw;
 }
 footer article {
     display: flex;
